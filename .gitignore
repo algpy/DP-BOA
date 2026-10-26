@@ -1,0 +1,37 @@
+# Python and development tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Downloaded data, weights and experiment outputs
+/datasets/
+/pretrained/
+/checkpoints/
+/logs/
+/wandb/
+*.pt
+*.pth
+*.ckpt
+events.out.tfevents.*
+
+# Local review material and generated packages
+/audit/
+/tmp/
+/dist/
+/release/
+*.zip
+*.pdf
